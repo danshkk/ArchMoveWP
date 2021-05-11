@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
@@ -102,7 +103,34 @@
         <div class="wrapper">
             <div class="feedback__container">
                 <h3 class="feedback__title title">Sound Too Good To Be True?</h3>
-                <div class="slider">
+                <div class="feedback__wrap">
+                    <div class="swiper-container feedback-slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper feedback-slider__wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide feedback-slider__item">
+                                <div class="feedback-slider__item-box">
+                                    <p class="feedback-slider__item-text">We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.</p>
+                                    <cite class="feedback-slider__item-author"><span>Adam Morph</span> — CEO A lfatech</cite>
+                                </div>
+                            </div>
+                            <div class="swiper-slide feedback-slider__item">
+                                <div class="feedback-slider__item-box">
+                                    <p class="feedback-slider__item-text">We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.</p>
+                                    <cite class="feedback-slider__item-author"><span>Adam Morph</span> — CEO A lfatech</cite>
+                                </div>
+                            </div>
+                            <div class="swiper-slide feedback-slider__item">
+                                <div class="feedback-slider__item-box">
+                                    <p class="feedback-slider__item-text">We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.
+                                    </p>
+                                    <cite class="feedback-slider__item-author"><span>Adam Morph</span> — CEO A lfatech</cite>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev swiper-button-container__prev"></div>
+                        <div class="swiper-button-next swiper-button-container__next"></div>
+                    </div>
                 </div>
             </div>
             <div class="project">
@@ -144,6 +172,8 @@
                 </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
