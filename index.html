@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./libs/magnific-popup.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
@@ -46,13 +47,13 @@
     <section class="builder">
         <div class="wrapper">
             <h3 class="builder__title title">Build professional valuable room for you</h3>
-            <div class="builder__container">
-                <img class="builder__img" src="./assets/builderImg1.jpg" alt="">
-                <img class="builder__img" src="./assets/builderImg2.png" alt="">
-                <img class="builder__img" src="./assets/builderImg3.png" alt="">
-                <img class="builder__img" src="./assets/builderImg4.png" alt="">
-                <img class="builder__img" src="./assets/builderImg5.png" alt="">
-                <img class="builder__img" src="./assets/builderImg6.png" alt="">
+            <div class="builder__container zoom-gallery">
+                <a class="builder__link popup-link" href="/assets/builderImg1.jpg"><img class="builder__img" src="./assets/builderImg1.jpg" alt=""></a>
+                <a class="builder__link popup-link" href="./assets/builderImg2.png"><img class="builder__img" src="./assets/builderImg2.png" alt=""></a>
+                <a class="builder__link popup-link" href="./assets/builderImg3.png"><img class="builder__img" src="./assets/builderImg3.png" alt=""></a>
+                <a class="builder__link popup-link" href="./assets/builderImg4.png"><img class="builder__img" src="./assets/builderImg4.png" alt=""></a>
+                <a class="builder__link popup-link" href="./assets/builderImg5.png"><img class="builder__img" src="./assets/builderImg5.png" alt=""></a>
+                <a class="builder__link popup-link" href="./assets/builderImg6.png"><img class="builder__img" src="./assets/builderImg6.png" alt=""></a>
             </div>
         </div>
     </section>
@@ -134,7 +135,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="./assets/projectImg.png" alt="">
+                <img class="project__img" src="./assets/projectImg.png" alt="">
                 <div class="project__container">
                     <div class="project__wrap">
                         <h3 class="project__title title">Realize your dream project with <span>Arcmove</span></h3>
@@ -171,9 +172,11 @@
                     <img src="./assets/logo-arch.svg" alt="">
                 </div>
         </div>
+        
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./libs/jquery.magnific-popup.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
-
 </html>
